@@ -41,6 +41,10 @@
             this.attr('t-att-data-bt-testing-model_name', 'widget and widget.getParent and widget.getParent().dataset and widget.getParent().dataset.model');
             this.attr('data-bt-testing-name', 'oe_list_add');
         </t>
+        <t t-jquery="button.oe_list_save">
+            this.attr('t-att-data-bt-testing-model_name', 'widget and widget.getParent and widget.getParent().dataset and widget.getParent().dataset.model');
+            this.attr('data-bt-testing-name', 'oe_list_save');
+        </t>
     </t>
 
 

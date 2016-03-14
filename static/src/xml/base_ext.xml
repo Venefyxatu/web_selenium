@@ -104,6 +104,14 @@
         </t>
     </t>
 
+    <!-- tested: ok -->
+    <t t-extend="FieldRadio">
+        <t t-jquery="input">
+            this.attr('t-att-data-bt-testing-name', 'widget.name');
+            this.attr('t-att-data-bt-testing-model_name', 'widget.view.fields_view.model');
+        </t>
+    </t>
+
     <!-- tested: no -->
     <t t-extend="FieldMonetary">
         <t t-jquery="input">

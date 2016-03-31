@@ -146,7 +146,7 @@
     </t>
 
     <!-- adapted, but not tested: 9.0 EE -->
-    <t t-extend="FieldSelectionSelect">
+    <t t-extend="FieldSelection">
         <t t-jquery="select">
             this.attr('t-att-data-bt-testing-name', 'widget.name');
             this.attr('t-att-data-bt-testing-model_name', 'widget.view.fields_view.model');
